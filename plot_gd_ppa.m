@@ -1,3 +1,5 @@
+%% This script helps to save the plot in MATLAB as pdf file with no margin
+
 function plot_gd_ppa(f1,f2,error_index,plot_or_not)
 %% plot function value comparison
 figure
