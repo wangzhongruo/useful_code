@@ -3,6 +3,7 @@
 function plot_gd_ppa(f1,f2,error_index,plot_or_not)
 %% plot function value comparison
 figure
+% Anyplot statement here
 semilogy(1:1:(size(f1,1)),f1,1:1:(size(f2,1)),f2,'LineWidth',5)
 % hold on 
 % semilogy(1:1:size(function_val_ssn,1),function_val_ssn,'b-o')
@@ -14,6 +15,7 @@ legend('GD','SSN')
 fname = sprintf ('objective_plot_%i',error_index);
 dname = 'plots';
 
+% set paper size
 set(gcf,'Units','Inches');
 pos = get(gcf,'Position');
 set(gca, 'LineWidth',1.8,'FontSize',20);
